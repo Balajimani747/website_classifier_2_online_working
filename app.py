@@ -2,11 +2,14 @@ import re
 import pickle
 import requests
 import streamlit as st
+import nltk
 from bs4 import BeautifulSoup
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 
+nltk.download('stopwords')
+nltk.download('punkt')
 wordnet_lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
