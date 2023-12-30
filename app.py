@@ -67,7 +67,7 @@ def main():
                 st.write("Predicted Value:", predicted_value)
 
             else:
-                st.write(f"Failed to connect to the website. Status code: {response.status_code}")
+                st.write(f"Failed to connect to the website. Due to website policy and security terms, we cannot access this website. This application only works for public domain websites!")
 
         except requests.RequestException as e:
             st.error(f"An error occurred while fetching the URL: {str(e)}")
