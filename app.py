@@ -1,8 +1,14 @@
+import nltk
+
+# Download NLTK data
+nltk.download('stopwords')
+nltk.download('punkt')
+
+from nltk.corpus import stopwords
 import re
 import pickle
 import requests
 import streamlit as st
-import nltk
 from bs4 import BeautifulSoup
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
