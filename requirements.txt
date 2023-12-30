@@ -1,2 +1,2 @@
-beautifulsoup4==4.10.0
-streamlit==0.96.0  
+beautifulsoup4
+
