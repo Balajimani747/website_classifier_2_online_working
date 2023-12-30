@@ -1,6 +1,7 @@
 import nltk
 
 # Download NLTK data
+nltk.download('wordnet')
 nltk.download('stopwords')
 nltk.download('punkt')
 
